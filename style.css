@@ -1,0 +1,63 @@
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#search {
+  width: 300px;
+  height: 45px;
+  padding: 0 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: #fff;
+  display: none;
+}
+
+#suggestions li {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+#suggestions li:hover {
+  background: rgb(71, 217, 228);
+}
+
+#repo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 400px;
+}
+
+#repo-list li {
+  background: #e0b0ff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#repo-list button {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 28px;
+  cursor: pointer;
+}
